@@ -176,8 +176,6 @@ function addRole(){
     })
 }
 
-//Very similar to add role, just modify questions to take first_name, last_name, role_id, manager_id
-//Keep in mind that the role needs currentROLE AS A LIST OF CHOICES and keep in mind that we have to make that string into a number that references the role_id
 function addEmp(){
   inquirer.prompt([
     {
@@ -216,9 +214,7 @@ function addEmp(){
   
 
 }
-//We need to ask which employee to update using currentEmp as choices
-//Ask which role to update to using currentRoles as choices
-//RESEARCH THE UPDATE funcciton on sql
+
 function updateEmp(){
   inquirer.prompt([
     {
@@ -242,8 +238,7 @@ function updateEmp(){
     return connection.query(query, [currentRole.indexOf(response.roleUpdate)+1, currentEmp.indexOf(response.empUpdate)+1],(err, res)=>{
       if(err)throw err;
       // console.log(res);
-      //loadDep();
-      //startSearch();
+      
      console.log("update successful!");
      startSearch();
   })
@@ -252,7 +247,6 @@ function updateEmp(){
 
 }
 
-//For adding Employee, we need to know what role they fulfill reference Load Dep create a currentRoles Array to store info on
 
 function loadDep(){
   currentDep = [];
@@ -272,7 +266,7 @@ function loadRole(){
  })
 
 }
-//For Updating Employee, we need to know from a list which Employee we want to update and with which role reference LoadDep create a currentEmpl Arra to store that info on
+
 function loadEmp(){
   currentEmp = [];
   connection.query("SELECT * FROM employee", (err, res)=> {
