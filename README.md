@@ -27,3 +27,7 @@ You're able to <br>
   to be added: <br>
   * delete roles, managers, and departments
   * update managers 
+
+
+# credit 
+to U of M bootcamp & tutor! 
