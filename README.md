@@ -13,7 +13,7 @@ for this project we used
 # How to use: 
   A quick video demonstrating how the application works. <br>
   ![demo](https://github.com/chavelyo3/EmployeeManagementSystem/blob/main/Assets/employmentManagment.gif?raw=true)<br>
-  Click [here](https://drive.google.com/file/d/1DwEFGDAvHsgxlr3C3KbRNiLXkMUy7gTH/view) to view video demo. <br>
+  Click [here](https://drive.google.com/file/d/1jORVtZ_Z7ppKOIfponEhSy2Osd_C3be6/view?usp=sharing) to view video demo. <br>
 
 <br>
 You're able to <br>
