@@ -15,9 +15,14 @@ for this project we used
   ![demo](https://github.com/chavelyo3/EmployeeManagementSystem/blob/main/Assets/employmentManagment.gif?raw=true)<br>
   Click [here](https://drive.google.com/file/d/1DwEFGDAvHsgxlr3C3KbRNiLXkMUy7gTH/view) to view video demo. <br>
 
-
-
-# Tools: 
-* HTML 
-* NPM 
-* MySQL
+<br>
+You're able to <br>
+* add employees 
+* add roles 
+* view departments
+* update employees 
+* update role
+  <br>
+  to be added: <br>
+  * delete roles, managers, and departments
+  * update managers 
