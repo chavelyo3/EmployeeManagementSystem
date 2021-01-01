@@ -6,8 +6,8 @@ For this project we had to utilize mySQL as a data base to hold employee informa
 
 # Installation 
 for this project we used 
-<code>MySql NPM</code> and 
-<code>NPM Inquirer</code>
+* <code>MySql NPM</code> 
+* <code>NPM Inquirer</code>
 
 
 # How to use: 
