@@ -4,7 +4,7 @@
 # Description: 
 For this project we had to utilize mySQL as a data base to hold employee information, which will allow us to view and add. 
 
-# Installation 
+# Installation:
 for this project we used 
 * <code>MySql NPM</code> 
 * <code>NPM Inquirer</code>
@@ -29,5 +29,5 @@ You're able to <br>
   * update managers 
 
 
-# credit 
+# credit:
 to U of M bootcamp & tutor! 
