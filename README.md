@@ -17,6 +17,7 @@ for this project we used
 
 <br>
 You're able to <br>
+
 * add employees 
 * add roles 
 * view departments
